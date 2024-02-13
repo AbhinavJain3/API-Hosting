@@ -2,41 +2,38 @@
 
 Here, basically we need to host the model on the Company's server. Below are the steps given for thw same.<br>
 
+<b>STEP 1:</b> Open the Company's Server through Command Prompt with the specific credentials.<br>
 <pre>
-STEP 1: Open the Company's Server through Command Prompt with the specific credentials.
         Eg: ssh *.*.*.* -p 17777
         Passcode: *******
-        
-STEP 2: Open jupyter notebook on the server with the help of port forwarding (to run the flask server locally).
-        jupyter notebook --no-browser --port=8889
-        ssh -N -f -L localhost:8000:localhost:8000 *.*.*.*.* -p 17777
+</pre>        
+ 
+<b>STEP 2:</b> Open jupyter notebook on the server with the help of port forwarding (to run the flask server locally).
 
-STEP 3: Now install your necessary Dependenies.
-        Run `pip install flask`
-
-STEP 4: Make the app.py file for hosting the flask server with port number=8000.
-
-STEP 5: Make the Face Detection Model and import it in the app.py file.
-
-STEP 6: Now, run the app.py file in the Terminal with the following command.
-        `python app.py`
-  
-STEP 7: Make sure you are in the same directory in Terminal where the file app.py is present.
-
-STEP 8: Copy the server URL and paste it in postman.
-
-STEP 9: Make the HTTP request to `POST`.
-
-STEP 10: Now in the header section add `Content Type`:key and `application/json`:value.
-
-STEP 11: In the Body tab, Add the file name, change type to `file` and in the value add the image on which you want the Face Detection Model to perform.
-
-![image](https://github.com/AbhinavJain3/API-Hosting/assets/118631182/73cc3d55-a663-426c-8e39-1be611fdc9b9)
-
-
+<b>STEP 3:</b> Now install your necessary Dependenies.<br>
+<pre>        Run `pip install flask`
 </pre>
+<b>STEP 4:</b> Make the app.py file for hosting the flask server with port number=8000.
 
-        
+<b>STEP 5:</b> Make the Face Detection Model and import it in the app.py file.
 
+<b>STEP 6:</b> Now, run the app.py file in the Terminal with the following command.<br>
+ <pre>
+         `python app.py`</pre>
+  
+<b>STEP 7:</b> Make sure you are in the same directory in Terminal where the file app.py is present.
 
+<b>STEP 8:</b> Copy the server URL and paste it in postman.
 
+<b>STEP 9:</b> Make the HTTP request to `POST`.
+
+<b>STEP 10:</b> Now in the header section add `Content Type`:key and `application/json`:value.
+
+<b>STEP 11:</b> In the Body tab, Add the file name, change type to `file` and in the value add the image on which you want the Face Detection Model to perform.
+
+<img  src="https://github.com/AbhinavJain3/API-Hosting/assets/118631182/73cc3d55-a663-426c-8e39-1be611fdc9b9" width="700">
+
+<b>STEP 12:</b> Now, you can see the face dimensions in the below faces column.
+
+<b>STEP 13:</b> Here is the given output.<br>
+<img src="https://github.com/AbhinavJain3/API-Hosting/assets/118631182/11be1310-f974-4cda-801b-37ab0adcc7a9" width="350">
