@@ -11,15 +11,14 @@ Here, basically we need to host the model on the Company's server. Below are the
 <b>STEP 2:</b> Open jupyter notebook on the server with the help of port forwarding (to run the flask server locally).
 
 <b>STEP 3:</b> Now install your necessary Dependenies.<br>
-<pre>        Run `pip install flask`
-</pre>
+&nbsp;&emsp;&emsp;&nbsp; Run `pip install flask`
+
 <b>STEP 4:</b> Make the app.py file for hosting the flask server with port number=8000.
 
 <b>STEP 5:</b> Make the Face Detection Model and import it in the app.py file.
 
 <b>STEP 6:</b> Now, run the app.py file in the Terminal with the following command.<br>
- <pre>
-         `python app.py`</pre>
+&nbsp;&emsp;&emsp;&nbsp;         `python app.py`
   
 <b>STEP 7:</b> Make sure you are in the same directory in Terminal where the file app.py is present.
 
