@@ -31,7 +31,7 @@ STEP 10: Now in the header section add `Content Type`:key and `application/json`
 
 STEP 11: In the Body tab, Add the file name, change type to `file` and in the value add the image on which you want the Face Detection Model to perform.
 
-<img src=![image](https://github.com/AbhinavJain3/API-Hosting/assets/118631182/40d6ffe4-92e9-42b3-bd9e-59b033e14a79)
+![image](https://github.com/AbhinavJain3/API-Hosting/assets/118631182/73cc3d55-a663-426c-8e39-1be611fdc9b9)
 
 
 </pre>
