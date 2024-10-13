@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from Face_detection1 import detect_faces_haar  # Import your model here
