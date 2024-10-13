@@ -1,7 +1,3 @@
-Here's the updated README file for your **FaceSquare** project, integrating the steps for hosting the model on the company's server:
-
----
-
 # FaceSquare
 
 ## About
@@ -29,7 +25,7 @@ To get started with FaceSquare, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/FaceSquare.git
+   git clone https://github.com/AbhinavJain3/FaceSquare.git
    cd FaceSquare
    ```
 
